@@ -34,3 +34,12 @@
 .comment {
   color: green;
 }
+
+.video-container {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.cat-vid {
+  margin-right: 1rem;
+}
