@@ -1,0 +1,45 @@
+.main-container {
+  margin: 2rem;
+  font-size: 16pt;
+}
+
+.text-box {
+  margin-bottom: 1rem;
+}
+
+.jilly-main {
+  width: 200px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.jilly-small {
+  width: 100px;
+}
+
+.code-box {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: rgb(200, 200, 200);
+}
+
+.code-block {
+  font-size: 12pt;
+}
+
+.url {
+  font-size: 10pt;
+}
+
+.comment {
+  color: green;
+}
+
+.video-container {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.cat-vid {
+  margin-right: 1rem;
+}

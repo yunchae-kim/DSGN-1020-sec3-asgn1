@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+    <title>Weekend at Jilly's</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="text-box">
+        <div class="">This is Jilly.</div>
+        <img
+          src="images/jilly_main.png"
+          alt="A picture of Jilly"
+          class="jilly-main"
+        />
+        <br />
+        She's a four-year-old rescue cat and has been living with my neighbor
+        for a year. And like all cats, she is weird.
+        <br />
+        <br />
+        The research on what causes cats to behave so derpy has probably started
+        since Ancient Egypt.
+        <br />
+        But even to this day, we can never truly know what's going inside their
+        head.
+        <br />
+        <br />
+        So we decided to give it a try, and see how much we could understand a
+        cat in two days of cat-sitting, six hours a day.
+        <br />
+        We then wrote down our findings in pseudocode that replicated the cat's
+        behavior.
+        <br />
+        Below is the journal of our weekend with Jilly, and our adventure to
+        deepen our knowledge of cats.
+      </div>
+      <div class="text-box">
+        Based on our extensive research on cats through Wikipedia, we decided to
+        use these research data for the basis for creating a cat.
+      </div>
+      <div class="text-box">
+        <strong>The Feline Five </strong>
+        <span class="url">(https://doi.org/10.1371/journal.pone.0183455)</span>
+      </div>
+      <div class="text-box">
+        <strong>Cat's Body Postures </strong>
+        <span class="url"
+          >(https://www.researchgate.net/publication/292962681_An_Ethogram_for_Behavioural_Studies_of_the_Domestic_Cat_Felis_silvestris_catus_L)</span
+        >
+      </div>
+      <div class="text-box">Our cat's pseudocode would look like this:</div>
+      <div class="code-box">
+        <code class="code-block"
+          >Cat { <br />
+          &nbsp; neuroticism: int (range 0-100)
+          <span class="comment">
+            // cats who are shy, suspicious, insecure and anxious</span
+          >
+          <br />
+          &nbsp; extraversion: int (range 0-100)
+          <span class="comment">
+            // includes traits such as curiosity, vigilance and active</span
+          >
+          <br />
+          &nbsp; dominance: int (range 0-100)
+          <span class="comment">
+            // cats who are aggressive and bullying to other cats</span
+          >
+          <br />
+          &nbsp; agreeableness: int (range 0-100)
+          <span class="comment">
+            // sums up how affectionate, gentle and friendly cats are to
+            people</span
+          >
+          <br />
+          &nbsp; impulsiveness: int (range 0-100)
+          <span class="comment">
+            // reflects those cats who are reckless and impulsive</span
+          >
+          <br />
+          &nbsp; age: int <br />
+          &nbsp; hunger: int (range 0-100) <br />
+          &nbsp; loneliness: int (range 0-100) <br />
+          &nbsp; sleepiness: int (range 0-100) <br />
+          &nbsp; posture: [<br />
+          &nbsp; &nbsp; relaxed-low
+          <span class="comment">
+            // Body: lying on the side or sitting. Legs: bent, or hind legs laid
+            out or extended. Tail: is loosely wrapped, extended, or held
+            up.</span
+          >
+          <br />
+          &nbsp; &nbsp; relaxed-stretched
+          <br />
+          &nbsp; &nbsp; alert
+          <span class="comment">
+            // Body: lying on its belly, or sitting. Legs: bent or extended
+            (when standing). Tail: curved back or straight upwards, and there
+            may be twitching while the tail is positioned downwards.</span
+          >
+          <br />
+          &nbsp; &nbsp; confident
+          <span class="comment">
+            // Body: may walk around in a more comfortable manner. Tail: up to
+            the sky indicating their importance.</span
+          >
+          <br />
+          &nbsp; &nbsp; tense
+          <span class="comment">
+            // Body: lying on its belly, with the back of its body lower than
+            its upper body (slinking). Legs: bent, and its front legs are
+            extended when standing. Tail: close to the body, tensed or curled
+            downwards; there can be twitching when the cat is standing up.</span
+          >
+          <br />
+          &nbsp; &nbsp; fearful
+          <span class="comment">
+            // Body: lying or crouching directly on top of its paws. Its entire
+            body may be shaking and very near the ground when standing up. Legs:
+            bent near the surface. Tail: curled and very close to its body when
+            standing on all fours.</span
+          >
+          <br />
+          &nbsp; ] <br />}
+          <br />
+          <br />
+          while (age < 2 years) Cat.set subject to change;
+          <br />
+          age: +1/year; <br />
+          hunger: +5/hour, -30/meal, +1/playtime minute;
+          <br />
+          loneliness: -5/playtime minute, +10/solitary hour, -20/touch min;
+          <br />
+          sleepiness: +5/playtime minute, -10/sleep hour, +10/non-sleeping hour;
+        </code>
+      </div>
+      <div class="text-box">
+        Now we assume we know nothing about Jilly except for her age. We create
+        a random cat and modify the data as we observe her behavior.
+      </div>
+      <div class="code-box">
+        <div class="">
+          <img
+            src="images/jilly-small.png"
+            alt="small picture of Jilly"
+            class="jilly-small"
+          />
+        </div>
+        <code class="code-block"
+          >Create Cat Jilly (<br />
+          &nbsp; neuroticism: random(1-100) <br />
+          &nbsp; extraversion: random(1-100) <br />
+          &nbsp; dominance: random(1-100) <br />
+          &nbsp; agreeableness: random(1-100) <br />
+          &nbsp; impulsiveness: random(1-100) <br />
+          &nbsp; age: 4 <br />
+          &nbsp; hunger: 50 <br />
+          &nbsp; loneliness: 50 <br />
+          &nbsp; sleepiness: 50 <br />
+          &nbsp; posture: random from array <br />
+          )
+        </code>
+      </div>
+      <div class="video-container">
+        <video width="400" controls class="cat-vid">
+          <source src="videos/jilly_play.mp4" type="video/mp4" />
+        </video>
+        <video width="400" controls class="cat-vid">
+          <source src="videos/jilly_touch.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="text-box">
+        On our first day, we discovered some personality traits about Jilly.
+        <br />
+        She was very agreeable in terms that she was open to human touch and
+        quite affectionate. <br />
+        She wasn't suspicious of us, meaning she had a rather low neuroticism.
+        <br />
+        She was not quite active, but still active enough to play with toys.
+        <br />
+        We also noticed that when we petted her back, her posture changed.
+        <br />
+        However, when we did this for a prolonged time she became overwhelmed
+        and twitched to move away from our hand.
+        <br />
+        We modified our code according to our time spent with Jilly.
+      </div>
+      <div class="code-box">
+        <code class="code-block">
+          <span class="comment"> // Jilly's status at day-1, 20:00 PM</span>
+          <br />
+          Set Jilly.agreeableness to 80; <br />
+          Set Jilly.neuroticism to 30; <br />
+          Set Jilly.extraversion to 40; <br />
+          Set Jilly.loneliness to 0; <br />
+          Set Jilly.hunger to 0; <br />
+          Set Jilly.sleepiness to 80; <br />
+          Jilly.add(function reactToTouch() { <br />
+          &nbsp; If (touched on head) posture = relaxed-low; <br />
+          &nbsp; If (touched on rear) posture = relaxed-stretched; <br />
+          &nbsp; If (time touched on rear > 15 seconds) posture = twitch};
+          <br />
+          )
+        </code>
+      </div>
+      <div class="video-container">
+        <video width="400" controls class="cat-vid">
+          <source src="videos/jilly_cling.mp4" type="video/mp4" />
+        </video>
+        <video width="400" controls class="cat-vid">
+          <source src="videos/jilly_eat.mov" type="video/mp4" />
+        </video>
+      </div>
+      <div class="text-box">
+        By the time we got back the next day, Jilly was sleeping. When she woke
+        up she was very clingy. <br />
+        We weren't sure if it was because of the loneliness or because she was
+        hungry. <br />
+        We tested out if we could mitigate both hunger and loneliness by
+        spanking her while eating. <br />
+        She normally wouldn't let us spank her, but she seemed fine with it when
+        she was eating.
+        <br />
+        We modified the code according to our discovery.
+      </div>
+      <div class="code-box">
+        <code class="code-block">
+          <span class="comment"> // Jilly's status at day-2, 09:00 AM</span>
+          <br />
+          Set Jilly.agreeableness to 90; <br />
+          Set Jilly.loneliness to 100; <br />
+          Set Jilly.hunger to 65; <br />
+          Set Jilly.sleepiness to 0; <br />
+          Jilly.add(function reactWhenVeryLonely() { <br />
+          &nbsp; If (loneliness == 100 && human is near) headbutt human; <br />
+          &nbsp; If (loneliness == 100 && human is near && human !respond)
+          nibble human; <br />
+          }) <br />
+          Jilly.add(function reactToSpanking() { <br />
+          &nbsp; If (eating == true) no response; <br />
+          &nbsp; Else posture = tense; <br />
+          })
+        </code>
+      </div>
+      <div class="video-container">
+        <video width="400" controls class="cat-vid">
+          <source src="videos/jilly_highfive.mp4" type="video/mp4" />
+        </video>
+        <video width="400" controls class="cat-vid">
+          <source src="videos/jilly_snack.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="text-box">
+        We also learned that Jilly already knew how to do high-fives, or maybe
+        she just responds to human hands.
+        <br />
+        As a prize, we let her get snacks from the box until we eventually had
+        to stop her because she kept on eating.
+        <br />
+        Besides that, we spent our last day playing with her for some time and
+        feeding her meal.
+        <br />
+        Here is the updated code for Jilly.
+      </div>
+      <div class="code-box">
+        <code class="code-block">
+          <span class="comment"> // Jilly's status at day-2, 08:00 PM</span>
+          <br />
+          Set Jilly.loneliness to 0; <br />
+          Set Jilly.hunger to 0; <br />
+          Set Jilly.sleepiness to 80; <br />
+          Jilly.add(function reactToHumanHand() { <br />
+          &nbsp; If (human hand is near) touch human hand; <br />
+          }) <br />
+          Jilly.add(function eatSnack() { <br />
+          &nbsp; While (hunger > 0 && snack is near &&) eat snack; <br />
+          })
+        </code>
+      </div>
+      <div class="text-box">
+        The two-day journal of observing Jilly ends here.
+        <br />
+        There were some characteristics that we set initially and couldn't find
+        out about her, but we also got to add more functions.
+        <br />
+        Jilly was very cooperative and we were glad that we were able to know
+        more about cats through the observation.
+        <br />
+        Here is the final code for Jilly.
+      </div>
+      <div class="code-box">
+        <div class="">
+          <img
+            src="images/jilly-small.png"
+            alt="small picture of Jilly"
+            class="jilly-small"
+          />
+        </div>
+        <code class="code-block"
+          >Cat Jilly (<br />
+          &nbsp; neuroticism: 30 <br />
+          &nbsp; extraversion: 40 <br />
+          &nbsp; dominance: ? <br />
+          &nbsp; agreeableness: 90 <br />
+          &nbsp; impulsiveness: ? <br />
+          &nbsp; age: 4 <br />
+          &nbsp; hunger: 0 <br />
+          &nbsp; loneliness: 0 <br />
+          &nbsp; sleepiness: 80 <br />
+          &nbsp; posture: relaxed <br />
+          &nbsp; function reactToTouch() <br />
+          &nbsp; function reactWhenVeryLonely() <br />
+          &nbsp; function reactToSpanking() <br />
+          &nbsp; function reactToHumanHand() <br />
+          &nbsp; function eatSnack() <br />
+          )
+        </code>
+      </div>
+    </div>
+  </body>
+</html>
